@@ -1,3 +1,3 @@
-FROM httpd:2.4
-COPY .  /var/www/html
+FROM apline:1.16
+COPY  . .
 EXPOSE 80
