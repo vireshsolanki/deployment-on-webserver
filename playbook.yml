@@ -1,8 +1,7 @@
 - hosts: all
   tasks:
-     - copy:
-          name: create new  container
-          shell: docker run -itd --name dockeransible -p 9000:80 vireshsolanki/deploymentonwebserver
-          
+      - name: create new  container
+        shell: docker run -itd --name dockeransible -p 9000:80 vireshsolanki/deploymentonwebserver
+
 
           
