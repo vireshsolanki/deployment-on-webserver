@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: webapp
   tasks:
       - name: create new  container
         shell: docker run -itd --name dockeransible -p 9000:80 vireshsolanki/deploymentonwebserver
